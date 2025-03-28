@@ -1,3 +1,20 @@
-def Multiply(a,b):
-  return a * b
-result=Multiply(10,20)
+print("Select operation.")
+print("3.Multiply")
+while True:
+    # take input from the user
+    choice = input("Enter choice(3): ")
+    if choice in ('3'):
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+            continue
+        if choice == '3':
+            def multiply(num1, num2):
+                return num1 * num2#Shengming Zhang,202283890013,2025-3-28
+        next_calculation = input("Let's do next calculation? (yes/no): ")
+        if next_calculation == "no":
+          break
+    else:
+        print("Invalid Input")    
