@@ -35,20 +35,25 @@ while True:
             continue
 
         if choice == '1':
-            # Collaborator1 enter Code For ADD here
-	          # Include your Name/ID/Date in comments
+           
+		def add (x,y):
+			return x+y	
+	          # Wang Ziwen 20114324 2025.3.28
  	          #
         elif choice == '2':
-            # Collaborator2 enter Code For SUBTRACT here
-	          # Include your Name/ID/Date in comments
+            def subtract (x,y):
+		return x-y
+	          # Wang Ziwen 20114324 2025.3.28
             #
         elif choice == '3':
-            # Collaborator3 enter Code For MULTIPLY here
-	          # Include your Name/ID/Date in comments
+            def multiply (x,y):
+		return x*y
+	          # Wang Ziwen 20114324 2025.3.28
             #
         elif choice == '4':
-            # Collaborator4 enter Code For DIVIDE here
-	          # Include your Name/ID/Date in comments
+            def divide (x,y):
+		return x/y
+	          # Wang Ziwen 20114324 2025.3.28
             # 
           
         # check if user wants another calculation
